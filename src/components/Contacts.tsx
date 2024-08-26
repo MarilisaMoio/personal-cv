@@ -11,7 +11,7 @@ const Contacts: React.FC = () => {
                 </li>
                 <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 underline'>
                     <FaEnvelope size={15} />
-                    <a href="mailto:moiomarilisa@gmail.com">moiomarilisa@gmai.com</a>
+                    <a href="mailto:moiomarilisa@gmail.com">moiomarilisa@gmail.com</a>
                 </li>
                 <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3'>
                     <FaLocationDot size={15} />
