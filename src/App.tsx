@@ -9,19 +9,23 @@ import Hobbies from "@/components/Hobbies"
 import SingleHobby from "@/components/SingleHobby"
 import ResumeSection from "@/components/ResumeSection"
 import BoolTrainee from "@/components/experiences/BoolTrainee"
+import AppingTrainee from "@/components/experiences/AppingTrainee"
+import Apping from "@/components/experiences/Apping"
 import Boolean from "@/components/education/Boolean"
 import EducationDegree from "@/components/education/EducationDegree"
 import Footer from "@/components/Footer"
 
 import { stack, hobbies } from "@/content.ts"
+import Contributes from "./components/Contributes"
+import Page from "./components/Page"
 
 
 
 const App = () => {
 
   return (
-    <>
-      <div className="m-auto max-w-[22cm] shadow-sm rounded-lg bg-stone-50 px-4">
+    <div className="h-screen overflow-auto">
+      <Page>
         <Header />
         <Main>
           <Aside>
@@ -35,17 +39,22 @@ const App = () => {
           </Aside>
           <Resume>
             <ResumeSection title={"Esperienze"}>
+              <Apping />
+              <AppingTrainee />
               <BoolTrainee />
             </ResumeSection>
             <ResumeSection title={"Formazione"}>
               <Boolean />
               <EducationDegree />
             </ResumeSection>
+            <ResumeSection title={"Contributi"}>
+              <Contributes />
+            </ResumeSection> 
           </Resume>
         </Main>
         <Footer />
-      </div>
-    </>
+      </Page>
+    </div>
   )
 }
 
