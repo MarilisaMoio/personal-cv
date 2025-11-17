@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhone, FaLocationDot, FaSquareGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
+import { FaLocationDot, FaSquareGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
 
 const Contacts: React.FC = () => {
     return (
