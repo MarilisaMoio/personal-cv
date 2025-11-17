@@ -5,10 +5,10 @@ const Contacts: React.FC = () => {
     return (
         <div>
             <ul className='flex md:flex-col flex-wrap justify-center'>
-                <li className='list-none flex items-center md:space-x-3'>
+                {/* <li className='list-none flex items-center md:space-x-3'>
                     <FaPhone size={15} />
-                    <span> +39 328-289-3314</span>
-                </li>
+                    <span> +39 </span>
+                </li> */}
                 <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 underline'>
                     <FaEnvelope size={15} />
                     <a href="mailto:moiomarilisa@gmail.com">moiomarilisa@gmail.com</a>
