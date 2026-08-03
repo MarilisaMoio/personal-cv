@@ -9,19 +9,19 @@ const Contacts: React.FC = () => {
                     <FaPhone size={15} />
                     <span> +39 </span>
                 </li> */}
-                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 underline'>
+                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 space-x-1 underline'>
                     <FaEnvelope size={15} />
                     <a href="mailto:moiomarilisa@gmail.com">moiomarilisa@gmail.com</a>
                 </li>
-                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3'>
+                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 space-x-1'>
                     <FaLocationDot size={15} />
                     <span>Bergamo</span>
                 </li>
-                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-2 underline'>
+                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-2 space-x-1 underline'>
                     <FaSquareGithub size={18} />
                     <a href="https://github.com/MarilisaMoio" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </li>
-                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-2 underline'>
+                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-2 space-x-1 underline'>
                     <FaLinkedin size={18} />
                     <a href="https://www.linkedin.com/in/marilisa-moio-6490b8314/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </li>
