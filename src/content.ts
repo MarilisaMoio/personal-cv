@@ -21,7 +21,8 @@ interface hobby {
 export const hobbies: hobby[] = [
     {
         name: "Suonare il basso",
-        text: "mi ha portata a ricercare il continuo miglioramento."
+        // text: "mi ha portata a ricercare il continuo miglioramento."
+        text: "appassionata in generale della musica, dal Djent al Kpop; questo strumento mi ha portata a ricercare il costante miglioramento."
     },
     {
         name: "Videogames",

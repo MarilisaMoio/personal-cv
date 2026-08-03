@@ -8,7 +8,7 @@ import Contacts from "@/components/Contacts"
 import Hobbies from "@/components/Hobbies"
 import SingleHobby from "@/components/SingleHobby"
 import ResumeSection from "@/components/ResumeSection"
-import BoolTrainee from "@/components/experiences/BoolTrainee"
+// import BoolTrainee from "@/components/experiences/BoolTrainee"
 import AppingTrainee from "@/components/experiences/AppingTrainee"
 import Apping from "@/components/experiences/Apping"
 import Boolean from "@/components/education/Boolean"
@@ -41,7 +41,7 @@ const App = () => {
             <ResumeSection title={"Esperienze"}>
               <Apping />
               <AppingTrainee />
-              <BoolTrainee />
+              {/* <BoolTrainee /> */}
             </ResumeSection>
             <ResumeSection title={"Formazione"}>
               <Boolean />
