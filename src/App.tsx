@@ -24,7 +24,7 @@ import Page from "./components/Page"
 const App = () => {
 
   return (
-    <div className="h-screen overflow-auto">
+    <div className="h-screen overflow-auto print:h-auto print:overflow-visible">
       <Page>
         <Header />
         <Main>
