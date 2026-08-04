@@ -16,8 +16,8 @@ import EducationDegree from "@/components/education/EducationDegree"
 import Footer from "@/components/Footer"
 
 import { stack, hobbies } from "@/content.ts"
-import Contributes from "./components/Contributes"
-import Page from "./components/Page"
+import Contributes from "@/components/Contributes"
+import Page from "@/components/Page"
 
 
 
