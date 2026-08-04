@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @media print {
+  html {
+    font-size: 87.5%;
+  }
+
   @page {
     margin: 1cm;
   }
