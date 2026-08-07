@@ -4,6 +4,7 @@ import Main from "@/components/Main"
 import Resume from "@/components/Resume"
 import TechStack from "@/components/TechStack"
 import SingleTech from "@/components/SingleTech"
+import AiApproach from "@/components/AiApproach"
 import Contacts from "@/components/Contacts"
 import Hobbies from "@/components/Hobbies"
 import SingleHobby from "@/components/SingleHobby"
@@ -33,6 +34,7 @@ const App = () => {
             <TechStack>
               { stack.map((tech) => <SingleTech tech={tech} key={tech}/>) }
             </TechStack>
+            <AiApproach />
             <Hobbies>
               { hobbies.map((hobby) => <SingleHobby text={hobby.text} name={hobby.name} key={hobby.name} />)}
             </Hobbies>
