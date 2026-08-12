@@ -6,10 +6,10 @@ export const stack: string[] = [
     "tailwind.png",
     "js.png",
     "typescript.png",
-    "vue.png",
+    //"vue.png",
     "react.png",
     "php.png",
-    "laravel.png",
+    //"laravel.png",
     "mysql.png"
 ];
 

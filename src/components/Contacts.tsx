@@ -1,17 +1,17 @@
 import React from 'react'
-import { FaLocationDot, FaSquareGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
+import { FaLocationDot, FaSquareGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa6";
 
 const Contacts: React.FC = () => {
     return (
-        <div>
+        <div className='w-full'>
             <ul className='flex md:flex-col flex-wrap justify-center'>
-                {/* <li className='list-none flex items-center md:space-x-3'>
-                    <FaPhone size={15} />
-                    <span> +39 </span>
-                </li> */}
                 <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 space-x-1 underline'>
                     <FaEnvelope size={15} />
                     <a href="mailto:moiomarilisa@gmail.com">moiomarilisa@gmail.com</a>
+                </li>
+                <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 space-x-1'>
+                    <FaPhone size={15} />
+                    <span> +393282893314 </span>
                 </li>
                 <li className='list-none flex items-center ml-2 md:ml-0 md:space-x-3 space-x-1'>
                     <FaLocationDot size={15} />
