@@ -10,6 +10,7 @@ import Hobbies from "@/components/Hobbies"
 import SingleHobby from "@/components/SingleHobby"
 import ResumeSection from "@/components/ResumeSection"
 // import BoolTrainee from "@/components/experiences/BoolTrainee"
+import Thrinakie from "@/components/experiences/Thrinakie"
 import AppingTrainee from "@/components/experiences/AppingTrainee"
 import Apping from "@/components/experiences/Apping"
 import Boolean from "@/components/education/Boolean"
@@ -43,6 +44,7 @@ const App = () => {
             <ResumeSection title={"Esperienze"}>
               <Apping />
               <AppingTrainee />
+              <Thrinakie />
               {/* <BoolTrainee /> */}
             </ResumeSection>
             <ResumeSection title={"Formazione"}>
