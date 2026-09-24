@@ -2,7 +2,7 @@
 import React from 'react'
 import ResumeHeadings from '@/components/ResumeHeadings'
 
-const BoolTrainee: React.FC = () => {
+const Apping: React.FC = () => {
     return (
         <div>
             <ResumeHeadings title={"Jr. Web Developer"} where={"Apping s.r.l."} start={"aprile 2025"} end={"luglio 2026"} />
@@ -13,4 +13,4 @@ const BoolTrainee: React.FC = () => {
     )
 }
 
-export default BoolTrainee
+export default Apping
