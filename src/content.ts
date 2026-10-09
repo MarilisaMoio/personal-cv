@@ -10,7 +10,8 @@ export const stack: string[] = [
     "react.png",
     "php.png",
     //"laravel.png",
-    "mysql.png"
+    "mysql.png",
+    "csharp.png"
 ];
 
 interface hobby {
